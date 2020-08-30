@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript final project</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/cart_css.css">
+    <link href="css/smoothness/jquery-ui-1.8.23.custom.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+
+    <div id="kfc_background">
+        <P id="cart"><a href="html/thanks.html"><img src="images/cart.png" height="60px" width="60px" alt="cart"></a></P>
+    </div>
+
+    <nav id="nav">
+        <a href="index.html">
+            <figure><img src="images/kfc01.jpg" width="40%" height="50%" alt="Breakfastlink">
+                <figcaption>KFC</figcaption>
+            </figure>
+        </a>
+
+        <a href="html/A&W.html">
+            <figure><img src="images/Restaurants-4.jpg" width="40%" height="50%" alt="Dinnerlink">
+                <figcaption>A&amp;W</figcaption>
+            </figure>
+        </a>
+
+        <a href="home_page.html">
+            <figure><img src="images/hime.jpg" width="40%" height="50%" alt="feedbacklink">
+                <figcaption>HOME</figcaption>
+            </figure>
+        </a>
+
+        <a href="html/login.html" id="contactus">
+            <figure><img src="images/Login.jpg" width="40%" height="50%" alt="Contact us link">
+                <figcaption>LOGIN</figcaption>
+            </figure>
+        </a>
+
+    </nav>
+
+    <div class="display">
+
+        <div id="menu">
+            <section>
+                <h1 id="choose">MENU</h1>
+                <div id="tabs">
+                    <ul>
+                        <li>
+                            <h3><a href="#tabs-1">SIDES</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#tabs-2">BURGERS</a></h3>
+                        </li>
+                    </ul>
+                    <div id="tabs-1">
+                        <div id="sides_flex">
+
+                            <div class="one">
+
+                                <div id="chicken_wrap"></div>
+                                <div id="chocolava_cake"></div>
+
+
+
+                            </div>
+
+                            <div class="one">
+                                <div id="garlic_bread"></div>
+                                <div id="hot_wings"></div>
+
+
+                            </div>
+
+                            <div class="one">
+                                <div id="potato_wedges"></div>
+                                <div id="omlette"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id="tabs-2">
+                        <div id="burgers_flex">
+
+                            <div class="burgers">
+                                <div id="cb">
+                                    <img src="images/Burger-1.jpg" width="85%" height="160px" alt="burger">
+                                    <div class="content">
+                                        <p class="left">CHICKEN BURGER</p>
+                                        <P id="right">$5</P>
+                                    </div>
+                                </div>
+
+                                <div id="mb">
+                                    <img src="images/Burger-2.jpg" width="85%" height="160px" alt="burger">
+                                    <div class="content">
+                                        <p class="left">MUTTON BURGER</p>
+                                        <P id="right">$6</P>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="burgers">
+                                <div id="vg">
+                                    <img src="images/Burger-3.jpg" width="85%" height="160px" alt="burger">
+                                    <div class="content">
+                                        <p class="left">VEG BURGER</p>
+                                        <P id="right">$3</P>
+                                    </div>
+                                </div>
+
+                                <div id="bb">
+                                    <img src="images/Burger-4.jpg" width="85%" height="160px" alt="burger">
+                                    <div class="content">
+                                        <p class="left">BEEF BURGER</p>
+                                        <P id="right">$8</P>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="burgers">
+                                <div id="cc">
+                                    <img src="images/Burger-5.jpg" width="85%" height="160px" alt="burger">
+                                    <div class="content">
+                                        <p class="left">CHICKEN CHILLI</p>
+                                        <P id="right">$10</P>
+                                    </div>
+                                </div>
+
+                                <div id="sc">
+                                    <img src="images/Burger-6.jpg" width="85%" height="160px" alt="burger">
+                                    <div class="content">
+                                        <p class="left">SPICY CHICKEN</p>
+                                        <P id="right">$9</P>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+
+
+        <div class="cart_display">
+            <h1 class="cart_heading">CART</h1>
+            <hr>
+            <a id="#free">
+                <h3 id="free">First order is free</h3>
+            </a>
+            <hr>
+            <div class="cart_info">
+                <div class="sides"></div>
+                <h3 class="name"></h3>
+                <!--                <p class="price"></p>-->
+
+            </div>
+            <hr>
+            
+
+        </div>
+
+    </div>
+
+    <div>
+          <input type="button" id="apply" width="50%" height="30px" value="APPLY">
+        <input type="text" id="code" width="100%" height="30px" placeholder="HAVE A COUPON CODE">
+        <span id="applied"></span>
+      
+    </div>
+
+
+
+
+</body>
+
+
+</html>

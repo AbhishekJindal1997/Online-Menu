@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accordion</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+    <link href="css/smoothness/jquery-ui-1.8.23.custom.css" type="text/css" rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+    <script>
+        
+        $(function() {
+            $("#tabs").tabs();
+        });
+
+    </script>
+</head>
+
+<body>
+    <section>
+        <h1>Sign Up</h1>
+        <div id="tabs">
+            <ul>
+                <li>
+                    <h3><a href="#tabs-1">Personal Information</a></h3>
+                </li>
+                <li>
+                    <h3><a href="#tabs-2">Contact Information</a></h3>
+                </li>
+                <li>
+                    <h3><a href="#tabs-3">Other Information</a></h3>
+                </li>
+
+
+            </ul>
+
+            <div id="tabs-1">
+                <form>
+                        <input width="50px" height="10px" placeholder="First Name" id="first_name"><br>
+                        <input width="50px" height="10px" placeholder="Last Name" id="last_name"><br>
+                        <input width="50px" height="10px" placeholder="Username" id="username"><br>
+                        <input  type="password"width="50px" height="10px" placeholder="Password" id="password"><br>
+                        <input type="button" width="50px" height="10px" value="SUBMIT" id="password"><br>
+                    
+                </form>
+            </div>
+
+            <div id="tabs-2">
+                <input type="password" width="50px" height="10px" placeholder="Password" id="password"><br>
+            </div>
+
+            <div id="tabs-3">
+                  <input width="50px" height="10px" placeholder="Last Name" id="last_name"><br>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

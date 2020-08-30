@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Javascript final project</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cart_css.css" />
+    <link
+      href="../css/smoothness/jquery-ui-1.8.23.custom.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="../js/jquery-ui-1.8.23.custom.min.js"
+    ></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+  </head>
+  <body>
+    <div id="aw_background">
+      <p id="cart">
+        <a href="../html/thanks.html"
+          ><img src="../images/cart.png" height="60px" width="60px" alt="cart"
+        /></a>
+      </p>
+    </div>
+
+    <nav id="nav">
+      <a href="../index.html">
+        <figure>
+          <img
+            src="../images/kfc01.jpg"
+            width="40%"
+            height="50%"
+            alt="Breakfastlink"
+          />
+          <figcaption>KFC</figcaption>
+        </figure>
+      </a>
+
+      <a href="../html/A&W.html">
+        <figure>
+          <img
+            src="../images/Restaurants-4.jpg"
+            width="40%"
+            height="50%"
+            alt="Dinnerlink"
+          />
+          <figcaption>A&amp;W</figcaption>
+        </figure>
+      </a>
+
+      <a href="../home_page.html">
+        <figure>
+          <img
+            src="../images/hime.jpg"
+            width="40%"
+            height="50%"
+            alt="feedbacklink"
+          />
+          <figcaption>HOME</figcaption>
+        </figure>
+      </a>
+
+      <a href="../html/login.html" id="contactus">
+        <figure>
+          <img
+            src="../images/Login.jpg"
+            width="40%"
+            height="50%"
+            alt="Contact us link"
+          />
+          <figcaption>LOGIN</figcaption>
+        </figure>
+      </a>
+    </nav>
+
+    <div class="display">
+      <div id="menu">
+        <section>
+          <h1 id="choose">MENU</h1>
+          <div id="tabs">
+            <ul>
+              <li>
+                <h3><a href="#tabs-1">BEVERAGE</a></h3>
+              </li>
+            </ul>
+            <div id="tabs-1">
+              <div id="sides_flex">
+                <div class="one">
+                  <div id="Root_beer"></div>
+                  <div id="Diet_Coke"></div>
+                </div>
+
+                <div class="one">
+                  <div id="Apple_juice"></div>
+                  <div id="Coffee"></div>
+                </div>
+
+                <div class="one">
+                  <div id="Sprite"></div>
+                  <div id="iced_tea"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="cart_display">
+        <h1 class="cart_heading">CART</h1>
+        <hr />
+        <a id="#free">
+          <h3 id="free">First order is free</h3>
+        </a>
+        <hr />
+        <div class="cart_info">
+          <div class="sides"></div>
+          <h3 class="name"></h3>
+          <!--                <p class="price"></p>-->
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <div>
+      <input type="button" id="apply" width="50%" height="30px" value="APPLY" />
+      <input
+        type="text"
+        id="code"
+        width="100%"
+        height="30px"
+        placeholder="HAVE A COUPON CODE"
+      />
+      <span id="applied"></span>
+    </div>
+  </body>
+</html>

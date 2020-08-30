@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript Final Project</title>
+
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+        <script src="../js/login.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        
+        <div>
+         <a href="../home_page.html">Home</a>
+            <h1>LOGIN</h1>
+        </div>
+      
+       
+        
+        
+        <form action="../home_page.html" method="get" name="login_form" id="login_form">
+    
+            
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <span>*</span><br>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+                <span>*</span><br>
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone" placeholder="226-978-8703">
+                <span>*</span><br>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Membership Information</legend>
+                <label id="member_type">Membeship Type:</label>
+                <input type="radio" name="mtype" id="basic" class="left" checked>Gold&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="mtype" id="average" class="left">Silver&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="mtype" id="king" class="left last">Premimum<br>
+                
+                <label id="member_type">Membeship Duration:</label>
+                <input type="radio" name="mduration" id="three_months" class="left" checked>3 Months &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="mduration" id="six_months" class="left">6 Months&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="mduration" id="eight_months" class="left last">8 Months<br>
+            </fieldset>
+            
+            <fieldset id="coupon">
+                <legend id="avail">Avail Free Coupon</legend>
+                <p id="coupon_display"></p>
+            </fieldset>
+
+            <input type="submit" id="submit" value="Login">
+            <input type="submit" id="reset" value="Reset"><br>
+
+        </form>
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

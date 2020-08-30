@@ -1,0 +1,185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #01080c;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+
+figcaption {
+    text-align: center;
+   
+}
+
+
+
+figure {
+    padding-top: 10px;
+    margin: 0px;
+    width: 123px;
+    height: 75px;
+    display: inline-block;
+}
+
+nav {
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    width: 40%;
+    margin: 20px auto;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: #01080c;
+   
+}
+
+#nav{
+    position:relative;
+   
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    width: 25%;
+    
+    
+}
+
+nav a:hover{
+     box-shadow: 2px 2px 2px white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#choose {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#restaurants {
+
+    display: flex;
+    margin: 30px 20px;
+
+
+    /*
+    overflow: auto;
+    max-width: 100%;
+    display: inline;
+*/
+}
+
+.restau_display {
+    cursor: pointer;
+    margin: 0px 20px;
+    width: 23%;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.restau_display:hover {
+    box-shadow: 2px 2px 2px white;
+}
+
+.rest_heading {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rest_info {
+    color: antiquewhite;
+    justify-content: center;
+    font-size: 1em;
+    padding: 10px;
+    width: 98%;
+
+}
+
+#important_notice {
+    text-align: center;
+    font-size: 1.5em;
+    width: 40%;
+    margin: auto;
+    background-color: antiquewhite;
+    color: #01080c;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+#important_notice p {
+    margin: 20px 0px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#covid {
+    color: red;
+}
+
+.user_name_display{
+    text-transform: uppercase;
+}
+
+#code{
+    height: 50px;
+    width: 300px;
+    margin:20px 0px;
+    margin-left: 40px;
+    text-align: center;
+    position: relative;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#apply{
+    height: 50px;
+    width: 100px;
+    margin:20px 0px;
+    margin-left: 40%;
+    text-align: center;
+    position: relative;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#apply:hover{
+    cursor: pointer;
+}
+
+#applied{
+    color: antiquewhite;
+    font-size: 1.2em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*
+.banner_image{
+    width: 100%;
+    height: 400px;
+   
+}*/
